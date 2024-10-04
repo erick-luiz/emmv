@@ -1,0 +1,55 @@
+/* Container do banner */
+.banner-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: transform 3s ease-in-out; /* Efeito de transição suave */
+}
+
+.banner-container.zoomed {
+  transform: scale(1.1); /* Zoom na imagem de fundo */
+}
+
+/* Conteúdo do banner (texto centralizado) */
+.banner-content {
+  text-align: center;
+  color: white;
+  z-index: 1; /* Garante que o texto fique acima da imagem */
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .banner-container {
+    height: 300px;
+  }
+
+  .banner-content {
+     margin-top: 50px;
+  }
+
+  .banner-content h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-container {
+    height: 250px;
+  }
+
+  .banner-content h1 {
+    font-size: 24px;
+  }
+}

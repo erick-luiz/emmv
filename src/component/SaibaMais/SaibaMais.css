@@ -1,0 +1,29 @@
+.saiba-mais-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #ADD8E6; /* Azul claro */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.3s ease; /* Transição para o efeito de zoom */
+}
+
+.saiba-mais-button:hover {
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+@media (max-width: 768px) {
+  .saiba-mais-button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .saiba-mais-button {
+    font-size: 14px;
+  }
+}

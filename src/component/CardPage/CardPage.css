@@ -1,0 +1,63 @@
+/* Container dos cards */
+.card-page-container {
+  display: grid;
+  gap: 20px;
+  padding: 50px 20px 20px 20px;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas para PC */
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: #add8e6; /* Azul claro */
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.card-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.card-divider {
+  border: none;
+  border-top: 2px solid #add8e6; /* Linha azul */
+  margin: 10px 0;
+}
+
+/* Estilo para garantir que a descrição tenha altura igual */
+.card-description {
+  font-size: 16px;
+  color: #333;
+  flex-grow: 1; /* Garante que todas as descrições cresçam uniformemente */
+}
+
+/* Responsividade: 3 colunas para tablet */
+@media (max-width: 1024px) {
+  .card-page-container {
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas para tablets */
+  }
+}
+
+/* Responsividade: 1 coluna para mobile */
+@media (max-width: 768px) {
+  .card-page-container {
+    grid-template-columns: 1fr; /* 1 coluna para celulares */
+  }
+}

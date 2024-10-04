@@ -1,0 +1,30 @@
+[
+  {
+    "id": "mentes-musicais-bruno-galhardi",
+    "name": "11/09/24: Bate Papo com Bruno Galhardi",
+    "image": "./images/eventos/bruno-galhardi.png",
+    "descricao": "Natural de Rio grande, O baterista Bruno Galhardi compartilhará suas vivencias vivendo de música em São Paulo e sobre Teatro Músical",
+    "descricaoCompleta": "Natural de Rio grande - RS, Músico instrumentista, na modalidade bateria. Iniciou sua trajetória na música aos 5 anos de idade por incentivo do pai, também baterista, Edinho Galhardi (membro fundador da banda Garotos da Rua).\nSuas primeiras experiências como profissional foram aos 11 anos de idade, nos seguimentos como Rock n’ roll e Blues.\nEclético e em busca de novas experiências dentro da música, logo em seguida passou a participar de projetos de estilos variados, como reggae, pop, MPB, jazz, big band e orquestras, bem como, desempenhar seu trabalho junto à diversos artistas, seja em execuções ao vivo em shows ou em gravações em estúdio. Cursou Bacharelado Música Popular e é formado em Produção fonográfica."
+
+  },
+  {
+    "id": "18-08-24-sarau-musical-gafieira-do-mar",
+    "name": "18/08/24: Sarau Musical Gafieira do Mar",
+    "image": "./images/eventos/sarau-musical-gafieira-do-mar.png",
+    "descricao": "Apresentação do Grupo de choro Gafieira do Mar na escola EMMV como parte da segunda edição do Saraus Musicais na escola.",
+    "descricaoCompleta": "É com grande alegria que estamos retomando nossa agenda e não poderia ser em outro lugar, estaremos na segunda edição do Saraus Musicais na escola de música Marcelo vaz uma noite inesquecível e com ingressos limitados entra em contato com a gente e reserva teu lugar, vamos reviver o nosso choro e o samba em uma noite muito especial!!!!"
+  },
+  {
+    "id": "02-08-24-sarau-musical-mare-som",
+    "name": "02/08/24: Sarau Musical com o grupo Maré Som",
+    "image": "./images/eventos/2024-08-sarau-musical-mare-som.png",
+    "descricao": "---",
+    "descricaoCompleta": "É uma série de apresentações musicais que contemplam artistas que querem um espaço mais intimista para apresentar sua arte!\n\nO espaço é na Escola de Música Marcelo Vaz, na Sala Mentes Musicais onde serão feitos os Saraus Musicais.\n\nA proposta surgiu da ideia de oportunizar artistas em divulgar sua música autoral. Essa proposta vem de encontro com a Formação de plateia, fomentar a criatividade bem como a sensibilidade de escuta.\n\nNa primeira edição do Saraus Musicais irá se apresentar a Banda MaréSom que está recheada de composições que refletem o cotidiano e a cultura de Rio Grande, nossa Papareia.\n\nBanda MaréSom formada por:\n\nLucas Cavalheiro - Violão/guitar e voz\nRodrigo Terra - Percussão e voz\nDom Pietro Marques - Violino e Voz"
+  },
+  {
+    "id": "13-07-24-oficina-de-percursao-corporal",
+    "name": "13/07/24: Oficina de Percursão Corporal",
+    "image": "./images/eventos/2024-07-oficina-percersao-corporal.png",
+    "descricao": "---"
+  }
+]

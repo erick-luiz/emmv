@@ -1,0 +1,46 @@
+/* Container da galeria responsiva */
+.responsive-gallery-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo da grade da galeria */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Espaçamento entre as imagens */
+}
+
+/* Estilo das imagens da galeria */
+.gallery-image-wrapper, .carousel-image-wrapper {
+  width: calc(33.333% - 20px); /* 3 imagens por linha com espaçamento */
+  transition: transform 0.3s ease;
+}
+
+.gallery-image,
+.carousel-image {
+  width: 100%;
+  height: 200px; /* Definindo uma altura fixa */
+  object-fit: cover; /* Preenche o contêiner sem distorcer */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave nas imagens */
+}
+
+/* Efeito de zoom ao passar o mouse */
+.gallery-image:hover, .carousel-image:hover {
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .gallery-image-wrapper {
+    width: 100%; /* 1 coluna em telas pequenas */
+  }
+
+  .gallery-image-wrapper, .carousel-image-wrapper {
+    width: 90%;
+  }
+}

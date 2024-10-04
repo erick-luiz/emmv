@@ -1,0 +1,18 @@
+.youtube-video iframe{
+    width: "560px";
+    height: "315px";
+}
+
+@media only screen and (max-width: 800px) {
+    .youtube-video iframe{
+        max-width: 360px;
+        max-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .youtube-video iframe{
+        max-width: 300px;
+        max-height: 150px;
+    }
+}

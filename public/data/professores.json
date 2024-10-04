@@ -1,0 +1,30 @@
+[
+  {
+    "id": "marcelo-vaz",
+    "name": "Marcelo Vaz",
+    "especialidades": "Piano, Teclado, Violão, Arranjo, Harmonia,...",
+    "image": "./images/professores/marcelo-vaz.png",
+    "descricao": "Marcelo Vaz é professor de diversos cursos na escola."
+  },
+  {
+    "id": "rodrigo-terra",
+    "name": "Rodrigo Terra",
+    "especialidades": "Canto, Técnica Vocal",
+    "image": "./images/professores/rodrigo-terra.png",
+    "descricao": "Maria é uma professora experiente em canto e técnica vocal."
+  },
+  {
+    "id": "dom-marquez",
+    "name": "Dom Marquez",
+    "especialidades": "Violino",
+    "image": "./images/professores/dom-marquez.png",
+    "descricao": "Dom é especialista em Violino"
+  },
+  {
+    "id": "mauro-atkinson",
+    "name": "Mauro Atkinson",
+    "especialidades": "Violão",
+    "image": "./images/professores/mauro-atkinson.jpg",
+    "descricao": "Mauro é Professor de Violão e Baixo."
+  }
+]

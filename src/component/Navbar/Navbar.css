@@ -1,0 +1,80 @@
+:root {
+    --main-blue-color: #add8e6;
+    --main-font-color: #fff;
+}
+
+/* Navbar personalizado */
+.custom-navbar {
+  transition: background-color 0.3s ease;
+  background-color: transparent; /* Fundo transparente no topo */
+}
+
+.custom-navbar.scrolled {
+  background-color: var(--main-blue-color);
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle {
+  color: var(--main-font-color) !important; /* Letras brancas */
+  transition: color 0.3s ease;
+}
+
+.custom-navbar.nav-link {
+  font-family: system-ui;
+  color: white;
+}
+
+/* Hover para mudar o estilo do texto */
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-toggle:hover {
+  font-weight: bold; /* Negrito no hover */
+  color: white; /* Letras permanecem brancas no hover */
+}
+
+/* Submenu personalizado */
+.custom-navbar .dropdown-menu {
+  background-color: #1e90ff; /* Fundo azul para o submenu */
+}
+
+.custom-navbar .dropdown-item {
+  color: white;
+}
+
+.custom-navbar .dropdown-item:hover {
+  background-color: #4682b4; /* Cor diferente no hover do submenu */
+  color: white;
+}
+
+/* Menu Hamburguer responsivo */
+@media (max-width: 991px) {
+  .custom-navbar.scrolled .navbar-collapse {
+    background-color: var(--main-blue-color); /* Fundo azul claro para o menu colapsado */
+  }
+
+  .custom-navbar .navbar-collapse {
+    background-color: transparent; /* Fundo transparente quando menu não está expandido */
+  }
+
+  .custom-navbar .navbar-collapse.show {
+    background-color: var(--main-blue-color); /* Fundo azul quando o menu é aberto */
+  }
+
+  .custom-navbar .navbar-toggler {
+    color: white;
+    border-color: white;
+  }
+
+  .custom-navbar .navbar-toggler:focus {
+    outline: none;
+  }
+}
+
+section {
+  scroll-margin-top: 80px; /* Ajuste de acordo com a altura do seu navbar */
+}
+
+.section {
+  padding-top: 80px; /* Ajuste para corresponder à altura do navbar */
+  position: relative;
+}
