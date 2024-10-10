@@ -14,25 +14,24 @@ const zoomOutProperties = {
   arrows: false
 };
 
-// Número do WhatsApp para o botão
-const whatsappNumber = '555199999999';
+// Todo: move this to the config file....
+const whatsappNumber = '5553981268900';
 
 const Slideshow = () => {
 
     const [activeSlide, setActiveSlide] = useState(0);
     const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
     const [scrolled, setScrolled] = useState(false);
-    const [images, setImages] = useState([]);
 
-
-    // Função para monitorar o scroll da página
-    useEffect(() => {
-        fetch('./data/banner.json', {
-            Headers: {Accept: "application/json"}
-        })
-        .then(res => res.json())
-        .then(res => setImages(res || []));
-    }, []);
+    const images = [
+                     "./images/banner/baixista.jpg",
+                     "./images/banner/batera.jpg",
+                     "./images/banner/cavaquinho.jpg",
+                     "./images/banner/piano.jpg",
+                     "./images/banner/sax.jpeg",
+                     "./images/banner/trompete.jpg",
+                     "./images/banner/violonista.jpg"
+                   ]
 
   // Função para monitorar o scroll da página
   useEffect(() => {

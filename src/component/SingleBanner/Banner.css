@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   overflow: hidden;
   transition: transform 3s ease-in-out; /* Efeito de transição suave */
+  margin-bottom: 2%;
 }
 
 .banner-container.zoomed {

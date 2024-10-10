@@ -31,8 +31,8 @@ const courses = [
   },
   {
     id: 6,
-    name: "Curso de Violino",
-    image: "/path/to/violin-course.jpg",
+    name: "Mentes Musicais",
+    image: "./images/cursos/mentes-musicais.jpg",
   },
 ];
 
