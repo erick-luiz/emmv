@@ -3,13 +3,13 @@ import { Navbar as RectNavbar, Nav, NavDropdown, Container } from 'react-bootstr
 import './Navbar.css';
 
 const Navbar = (props) => {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(!props.invisible);
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Monitora o scroll da página para mudar a cor do fundo
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if ((!props.invisible) || window.scrollY > 50) {
         setScrolled(true);
       } else {
         setScrolled(false);
