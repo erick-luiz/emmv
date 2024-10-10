@@ -1,0 +1,89 @@
+.professores-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.professor-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.professor-image-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 300px; /* Tamanho único para todas as imagens */
+}
+
+.professor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Assegura que a imagem preencha o container sem distorção */
+  transition: transform 0.3s ease;
+}
+
+.professor-image-container:hover .professor-image {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: opacity 0.3s ease;
+}
+
+.professor-image-container:hover .overlay {
+  opacity: 1;
+}
+
+.professor-nome {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.professor-disciplina {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.professor-linha {
+  width: 80%;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.professor-redes a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.professor-redes a:hover {
+  color: #007bff;
+}
+
+/* Layout responsivo */
+@media (max-width: 1024px) {
+  .professores-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .professores-container {
+    grid-template-columns: 1fr;
+  }
+}

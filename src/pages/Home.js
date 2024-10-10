@@ -8,6 +8,7 @@ import CoursesCarousel from '../component/CoursesCarousel/CoursesCarousel.js';
 import GoogleMap from '../component/GoogleMap/GoogleMap.js';
 import ProfessoresCarousel from '../component/ProfessoresCarousel/ProfessoresCarousel.js';
 import EventosCarousel from '../component/News/EventosCarousel.js';
+import NotificationPopup from '../component/NotificationPopup/NotificationPopup.js';
 import Page from './Page.js'
 
 
@@ -38,6 +39,7 @@ function Home() {
         <h1>Localização</h1>
         <GoogleMap />
     </section>
+
   </Page>;
 }
 

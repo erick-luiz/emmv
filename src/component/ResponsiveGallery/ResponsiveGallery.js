@@ -8,8 +8,8 @@ const images = [
   { id: 2, src: "./images/escola-1.png", alt: "Imagem 2" },
   { id: 3, src: "./images/escola-2.png", alt: "Imagem 3" },
   { id: 4, src: "./images/escola-3.jpg", alt: "Imagem 4" },
-  { id: 5, src: "./images/escola-5.jpg", alt: "Imagem 5" },
-  { id: 6, src: "./images/escola-5.jpg", alt: "Imagem 6" },
+  { id: 5, src: "./images/escola-6.jpg", alt: "Imagem 5" },
+  { id: 6, src: "./images/escola-7.jpg", alt: "Imagem 6" },
 ];
 
 const ResponsiveGallery = () => {

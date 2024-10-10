@@ -1,0 +1,11 @@
+.long-line {
+  width: 90%;
+  border: 1px solid #00bfff;
+  margin-bottom: 20px;
+}
+
+.short-line {
+  width: 50%;
+  border: 1px solid #00bfff;
+  margin: 10px auto;
+}

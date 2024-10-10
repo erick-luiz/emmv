@@ -1,22 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { FaInstagram, FaFacebook, FaWhatsapp, FaYoutube } from 'react-icons/fa'; // Importando ícones
+import { FaInstagram, FaFacebook, FaWhatsapp, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
 
-    const handleMouseEnter = (e, color) => {
-        e.target.style.fill = color
-      }
-      const handleMouseLeave = e => {
-        e.target.style.fill = "white"
-      }
 
-    const handleMouseEnterWhats = (e) => { handleMouseEnter(e, "green") }
-    const handleMouseEnterFace = (e) => { handleMouseEnter(e, "blue") }
-    const handleMouseEnterInstagram = (e) => { handleMouseEnter(e, "orange") }
-    const handleMouseEnterYoutube = (e) => { handleMouseEnter(e, "red") }
-
-    let iconSize = 30;
+   let iconSize = 30;
 
     return (
         <footer>
@@ -52,12 +41,9 @@ const Footer = () => {
                             <FaWhatsapp size={iconSize}/>
                           </a>
                           <a href="https://www.youtube.com/@marcelomusicapiano"
-                            target="_blank" rel="noopener noreferrer">
-                            <FaYoutube
-                                size={iconSize}
-                                onMouseEnter={handleMouseEnterYoutube}
-                                onMouseLeave={handleMouseLeave}
-                            />
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <FaYoutube size={iconSize} />
                           </a>
                         </div>
                       </div>
