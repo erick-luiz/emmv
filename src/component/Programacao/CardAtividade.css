@@ -1,0 +1,38 @@
+.card-atividade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+}
+
+.card-atividade.coffee-break {
+  background-color: #00b8ff14; /* Cor marrom para Coffee Break */
+}
+
+.card-atividade.almoco {
+  background-color: #00b8ff14; /* Cor laranja para Almoço */
+}
+
+.card-icone {
+  display: flex;
+  align-items: center;
+}
+
+.card-info {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card-horario {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.card-tipo {
+  font-size: 1.2rem;
+}

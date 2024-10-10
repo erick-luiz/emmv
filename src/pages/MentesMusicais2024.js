@@ -4,13 +4,18 @@ import InnerNavbar from '../component/NavbarComponents/InnerNavbar/InnerNavbar.j
 import Banner from '../component/SingleBanner/Banner.js';
 import CardPage from '../component/CardPage/CardPage.js';
 import CoordenadoresEvento from '../component/CoordenadoresEvento/CoordenadoresEvento.js';
+import Mentes2024Section from '../component/EquipeSection/Mentes2024Section.js';
+import Programacao from '../component/Programacao/Programacao.js';
 import Page from './Page.js'
 import GoogleMap from '../component/GoogleMap/GoogleMap.js';
 
 function MentesMusicais2024() {
   return  <Page>
-        <Banner backgroundImage="./images/banner/noticias.png" text="Mentes Músicais 2024" />
-        <InnerNavbar />
+        <Banner backgroundImage="./images/eventos/mentes-2024/banner.png" text="" />
+        <InnerNavbar invisible={true}/>
+        <Mentes2024Section />
+
+        <Programacao />
 
         <CoordenadoresEvento />
 

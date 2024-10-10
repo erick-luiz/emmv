@@ -9,21 +9,32 @@ import ShortLine from '../Line/ShortLine.js'
 import LongLine from '../Line/LongLine.js'
 
 const coordenadores = [
-  {
-    nome: 'Coordenador 1',
+   {
+      nome: 'Marcelo Vaz',
+      disciplina: 'Piano & Arranjo & Canto, Outros...',
+      foto: './images/professores/marcelo-vaz.png', // URL da imagem
+      redes: {
+        facebook: null,
+        instagram: 'https://www.instagram.com/marcelomusicprofile/',
+        twitter: null,
+        linkedin: null,
+      }
+    },
+    {
+    nome: 'Rodrigo Terra',
     descricao: 'Responsável pela organização geral do evento.',
-    foto: 'https://via.placeholder.com/300',
+    foto: './images/professores/rodrigo-terra.jpg',
     redes: {
-      facebook: '#',
-      instagram: '#',
-      twitter: '#',
-      linkedin: '#',
+      facebook: 'https://pt-br.facebook.com/rodrigo.machado.5621',
+      instagram: 'https://www.instagram.com/roodrigo_terra/',
+      twitter: null,
+      linkedin: null,
     }
   },
   {
-    nome: 'Coordenador 2',
+    nome: 'Fransisco Maciel',
     descricao: 'Coordena as atividades culturais.',
-    foto: 'https://via.placeholder.com/300',
+    foto: './images/eventos/mentes-2024/fransisco-maciel.png',
     redes: {
       facebook: '#',
       instagram: '#',
@@ -32,16 +43,47 @@ const coordenadores = [
     }
   },
  {
-   nome: 'Coordenador 2',
-   descricao: 'Coordena as atividades culturais.',
-   foto: 'https://via.placeholder.com/300',
-   redes: {
-     facebook: '#',
-     instagram: '#',
-     twitter: '#',
-     linkedin: '#',
-   }
- },
+     nome: 'Lucas Cavalheiro',
+     descricao: 'Coordena as atividades culturais.',
+     foto: './images/eventos/mentes-2024/lucas-cavalheiro.png',
+     redes: {
+       facebook: '#',
+       instagram: '#',
+       twitter: '#',
+       linkedin: '#',
+     }
+    },
+     {
+     nome: 'Alexandre Salum',
+     descricao: 'Coordena as atividades culturais.',
+     foto: './images/eventos/mentes-2024/alexandre-salum.png',
+     redes: {
+       facebook: '#',
+       instagram: '#',
+       twitter: '#',
+       linkedin: '#',
+     }
+    },{
+           nome: 'Robson Velasquez',
+           descricao: 'Coordena as atividades culturais.',
+           foto: './images/eventos/mentes-2024/robson-velasquez.png',
+           redes: {
+             facebook: '#',
+             instagram: '#',
+             twitter: '#',
+             linkedin: '#',
+           }
+          },{
+           nome: 'Erick Lopes (Kinho)',
+           descricao: 'Coordena a parte de Tecnologia',
+           foto: './images/eventos/mentes-2024/erick-lopes.png',
+           redes: {
+             facebook: '#',
+             instagram: '#',
+             twitter: '#',
+             linkedin: '#',
+           }
+          },
   // Adicione mais coordenadores conforme necessário
 ];
 
@@ -86,10 +128,10 @@ const CoordenadoresEvento = () => {
                         <p className="coordenador-descricao">{coordenador.descricao}</p>
                         <hr className="coordenador-linha" />
                         <div className="coordenador-redes">
-                          <a href={coordenador.redes.facebook}><FaFacebook /></a>
-                          <a href={coordenador.redes.instagram}><FaInstagram /></a>
-                          <a href={coordenador.redes.twitter}><FaTwitter /></a>
-                          <a href={coordenador.redes.linkedin}><FaLinkedin /></a>
+                          {coordenador.redes.facebook && <a href={coordenador.redes.facebook}><FaFacebook /></a>}
+                          {coordenador.redes.instagram && <a href={coordenador.redes.instagram}><FaInstagram /></a>}
+                          {coordenador.redes.twitter && <a href={coordenador.redes.twitter}><FaTwitter /></a>}
+                          {coordenador.redes.linkedin && <a href={coordenador.redes.linkedin}><FaLinkedin /></a>}
                         </div>
                       </div>
                     </div>

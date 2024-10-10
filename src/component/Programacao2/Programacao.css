@@ -1,0 +1,50 @@
+.tabela-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo-programacao {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00bfff; /* Azul claro */
+}
+
+.linha-programacao {
+  width: 50%;
+  border: 1px solid #00bfff;
+  margin: 10px auto 30px auto;
+}
+
+.tabela-programacao {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.tabela-programacao th, .tabela-programacao td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela-programacao th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabela-programacao td {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .tabela-programacao {
+    font-size: 0.9rem;
+  }
+}

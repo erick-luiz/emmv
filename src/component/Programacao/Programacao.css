@@ -1,0 +1,99 @@
+.programacao-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo-programacao {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #00bfff; /* Azul claro */
+}
+
+.linha-programacao {
+  width: 50%;
+  border: 1px solid #00bfff;
+  margin: 10px auto 30px auto;
+}
+
+.carousel-container {
+  padding: 20px 0;
+}
+
+.carousel-item-spacing {
+  padding: 0 10px; /* Espaçamento entre os itens */
+}
+
+.dia-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  min-height: 350px; /* Define uma altura mínima para os cards */
+  height: 100%; /* Todos os cards terão a mesma altura */
+}
+
+.dia-titulo {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.turno {
+  margin-bottom: 20px;
+}
+
+.turno-titulo {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #00bfff;
+}
+
+.horarios-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.horario-item {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.horario-hora {
+  font-weight: bold;
+}
+
+.evento-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.evento-link:hover {
+  text-decoration: underline;
+}
+
+.evento-link strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.evento-link em {
+  color: #555;
+  font-style: italic;
+}
+
+.evento-link small {
+  display: block;
+  color: #999;
+  margin-top: 5px;
+}
