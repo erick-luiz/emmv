@@ -6,6 +6,7 @@ import CardPage from '../component/CardPage/CardPage.js';
 import CoordenadoresEvento from '../component/CoordenadoresEvento/CoordenadoresEvento.js';
 import Palestrantes from '../component/Mentes2024/Palestrantes/Palestrantes.js';
 import Apresentacoes from '../component/Mentes2024/Apresentacoes/Apresentacoes.js';
+import NavegacaoCircular from '../component/Mentes2024/NavegacaoCircular/NavegacaoCircular.js';
 import Mentes2024Section from '../component/EquipeSection/Mentes2024Section.js';
 import ProgramacaoEvento from '../component/ProgramacaoEvento/ProgramacaoEvento.js';
 import InscrevaBotao from '../component/Btn/InscrevaBotao.js';
@@ -14,16 +15,22 @@ import GoogleMap from '../component/GoogleMap/GoogleMap.js';
 
 function MentesMusicais2024() {
   return  <Page>
-        <Banner backgroundImage="./images/eventos/mentes-2024/banner.png" text="" />
+        <Banner backgroundImage="./images/eventos/mentes-2024/banner-7.png" text="" />
         <InnerNavbar invisible={true}/>
+        <NavegacaoCircular />
+        <session id="detalhes">
         <Mentes2024Section />
+        </session>
         <InscrevaBotao />
+        <session id="programacao">
         <ProgramacaoEvento />
+        </session>
 
-        <Palestrantes />
+        <session id="palestrantes"> <Palestrantes /> </session>
         <Apresentacoes  />
         <CoordenadoresEvento />
 
+        <session id="localizacao">
          <h1 className="titulo">
             <span className="highlight">Localização</span> do Evento
           </h1>
@@ -33,6 +40,7 @@ function MentesMusicais2024() {
         </p>
         <hr className="linha-inteira" />
         <GoogleMap />
+        </session>
   </Page>;
 }
 

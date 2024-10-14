@@ -103,6 +103,16 @@ const coordenadores = [
              twitter: null,
              linkedin: null,
            }
+          },{
+           nome: 'Lisi Aristimuno',
+           descricao: 'Fotos/videos e redes sociais',
+           foto: './images/eventos/mentes-2024/lisi.jpg',
+           redes: {
+             facebook: null,
+             instagram: 'https://www.instagram.com/lisi_108/',
+             twitter: null,
+             linkedin: null,
+           }
           },
 
 
@@ -147,6 +157,7 @@ const CoordenadoresEvento = () => {
         <li><b>Comissão de Infraestrutura</b>: Francisco Maciel</li>
         <li><b>Equipe técnica de áudio</b>: Rodrigo Terra</li>
         <li><b>Monitores</b>: Alyk Veleda e Dom Marques</li>
+        <li><b>Fotos/videos e redes sociais</b>: Lisi Aristimuno</li>
        </ul>
       </p>
       <LongLine />

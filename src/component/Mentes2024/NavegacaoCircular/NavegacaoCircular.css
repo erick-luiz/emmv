@@ -1,0 +1,40 @@
+.navegacao-circular {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.circulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.circulo img {
+  width: 40px;
+  height: 40px;
+}
+
+.circulo span {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #333;
+}
+
+.circulo:hover {
+  background-color: #007bff;
+  transform: scale(1.1);
+  color: white;
+}
+
+.circulo:hover span {
+  color: white;
+}
