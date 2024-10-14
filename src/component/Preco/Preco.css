@@ -1,0 +1,16 @@
+.preco {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Cor do texto */
+}
+
+.icone-preco {
+  margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+  color: #00aa00; /* Cor do ícone (verde) */
+}
+
+.texto-preco {
+  font-size: 24px;
+}

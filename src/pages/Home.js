@@ -8,6 +8,7 @@ import CoursesCarousel from '../component/CoursesCarousel/CoursesCarousel.js';
 import GoogleMap from '../component/GoogleMap/GoogleMap.js';
 import ProfessoresCarousel from '../component/ProfessoresCarousel/ProfessoresCarousel.js';
 import EventosCarousel from '../component/News/EventosCarousel.js';
+import PopupHome from '../component/Mentes2024/PopupHome/PopupHome.js';
 import NotificationPopup from '../component/NotificationPopup/NotificationPopup.js';
 import Page from './Page.js'
 
@@ -29,6 +30,7 @@ function Home() {
   return <Page>
     <Slideshow />
     <NavbarHome />
+    <PopupHome />
     <section id="sobre-a-escola"><AboutSchool /></section>
     <section id="conheca-os-cursos"><CoursesCarousel /></section>
     <section id="conheca-os-professores">

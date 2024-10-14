@@ -1,11 +1,17 @@
 [
   {
+    "id": "mentes-musicais-2024",
+    "name": "De 08/11/24 à 10/11/2024: Mentes Musicais",
+    "image": "./images/eventos/mentes-2024/banner.jpg",
+    "descricao": "",
+    "link": "/mentes-musicais-2024"
+  },
+  {
     "id": "mentes-musicais-bruno-galhardi",
     "name": "11/09/24: Bate Papo com Bruno Galhardi",
     "image": "./images/eventos/bruno-galhardi.png",
     "descricao": "Natural de Rio grande, O baterista Bruno Galhardi compartilhará suas vivencias vivendo de música em São Paulo e sobre Teatro Músical",
     "descricaoCompleta": "Natural de Rio grande - RS, Músico instrumentista, na modalidade bateria. Iniciou sua trajetória na música aos 5 anos de idade por incentivo do pai, também baterista, Edinho Galhardi (membro fundador da banda Garotos da Rua).\nSuas primeiras experiências como profissional foram aos 11 anos de idade, nos seguimentos como Rock n’ roll e Blues.\nEclético e em busca de novas experiências dentro da música, logo em seguida passou a participar de projetos de estilos variados, como reggae, pop, MPB, jazz, big band e orquestras, bem como, desempenhar seu trabalho junto à diversos artistas, seja em execuções ao vivo em shows ou em gravações em estúdio. Cursou Bacharelado Música Popular e é formado em Produção fonográfica."
-
   },
   {
     "id": "18-08-24-sarau-musical-gafieira-do-mar",

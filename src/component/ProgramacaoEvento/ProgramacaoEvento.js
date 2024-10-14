@@ -3,6 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './ProgramacaoEvento.css';
 import ShortLine from '../Line/ShortLine.js'
+import Alerta from '../Alerta/Alerta.js'
+import Preco from '../Preco/Preco.js'
 
 const ProgramacaoEvento = () => {
   const [selectedDay, setSelectedDay] = useState('sexta');
@@ -54,7 +56,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Marésom</td>
+              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Marésom</td>
             </tr>
           </>
         );
@@ -103,7 +105,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
             </tr>
           </>
         );
@@ -149,7 +151,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
             </tr>
           </>
         );
@@ -234,11 +236,11 @@ const ProgramacaoEvento = () => {
                   </tr>
                   <tr>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Marésom</td>
+                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Marésom</td>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo ()</td>
                   </tr>
                 </>
               );
@@ -332,6 +334,7 @@ const ProgramacaoEvento = () => {
           {renderTableContent('all')}
         </tbody>
       </table>
+    <Alerta texto="** As Apresentações músicais tem o valor de 30,00 R$. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
     </div>
     </div>
   );

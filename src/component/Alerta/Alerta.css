@@ -1,0 +1,20 @@
+.alerta {
+  background-color: #ffcc00; /* Cor de fundo chamativa (amarelo) */
+  color: #333; /* Cor do texto (preto escuro) */
+  font-size: 18px; /* Tamanho do texto */
+  font-weight: bold; /* Texto em negrito */
+  text-align: center; /* Centraliza o texto */
+  padding: 15px; /* Espaçamento interno */
+  border: 1px solid #ff9900; /* Borda com cor mais forte */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+  border-radius: 5px; /* Canto levemente arredondado */
+  margin: 10px 0; /* Margem entre o alerta e os outros elementos */
+  animation: blink 1.5s infinite; /* Animação de destaque */
+}
+
+/* Animação de piscar para chamar atenção */
+@keyframes blink {
+  0% { background-color: #ffcc00; }
+  50% { background-color: #ffdb4d; }
+  100% { background-color: #ffcc00; }
+}
