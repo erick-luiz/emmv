@@ -50,7 +50,7 @@ const PopupHome = () => {
           className="popup-banner"
         />
         <p>Venha participar do nosso evento exclusivo!</p>
-        <Link to="/pagina-do-evento" className="popup-button" onClick={handleClosePopup}>
+        <Link to="/mentes-musicais-2024" className="popup-button" onClick={handleClosePopup}>
           Vá para a página do evento
         </Link>
       </div>
