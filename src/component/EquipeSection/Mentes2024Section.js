@@ -11,7 +11,7 @@ const Mentes2024Section = () => {
       </h1>
       <ShortLine />
       <p className="descricao">
-        A <span className="highlight">Mentes musicais</span> é um evento da Escola de Música Marcelo Vaz (<span className="highlight">EMMV</span>) que celebra a disseminação de saberes. O evento inclui apresentações musicais, oficinas, palestras, mesas redondas, mostras de experiências, minicursos e shows. A EMMV oferece um lugar propício para o estudo musical, criando um ambiente sonoro, artístico próprio para troca de experiências e aperfeiçoamento de saberes.
+        O <span className="highlight">Mentes musicais</span> é um evento da Escola de Música Marcelo Vaz (<span className="highlight">EMMV</span>) que celebra a disseminação de saberes. O evento inclui apresentações musicais, oficinas, palestras, mesas redondas, mostras de experiências, minicursos e shows. A EMMV oferece um lugar propício para o estudo musical, criando um ambiente sonoro, artístico próprio para troca de experiências e aperfeiçoamento de saberes.
       </p>
       <LongLine />
     </div>

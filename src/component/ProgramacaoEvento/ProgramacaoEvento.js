@@ -82,7 +82,7 @@ const ProgramacaoEvento = () => {
               <td>Intervalo</td>
             </tr>
             <tr>
-              <td rowSpan="3">TARDE</td>
+              <td rowSpan="4">TARDE</td>
               <td>14h – 16h</td>
               <td>PALESTRA: Expressões artísticas de povos originários - (Karyne Dias Coutinho)</td>
             </tr>
@@ -90,6 +90,8 @@ const ProgramacaoEvento = () => {
               <td>16h – 16h30</td>
               <td>Coffee Break</td>
             </tr>
+            <td>16h30 – 17h</td>
+            <td>Pocket Show</td>
             <tr>
               <td>17h – 18h30</td>
               <td>PALESTRA: Formação de professores de música - (Lélia Negrini Diniz)</td>
@@ -268,11 +270,10 @@ const ProgramacaoEvento = () => {
                    <table className="programacao-tabela">
                      <thead>
                        <tr>
-                         <th>TURNO</th>
-                         <th colSpan="2">{getDayName(day)}</th>
+                         <th colSpan="3">{getDayName(day)}</th>
                        </tr>
                        <tr>
-                         <th></th>
+                         <th>TURNO</th>
                          <th>Horário</th>
                          <th>Atividade</th>
                        </tr>
@@ -308,6 +309,8 @@ const ProgramacaoEvento = () => {
           {getMobileTable('domingo')}
         </TabPanel>
       </Tabs>
+      <Alerta texto="** As Apresentações músicais tem o valor de 30,00 R$. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
+
       </div>
     {/* DESKTOP... */}
     <div className="programacao-container programacao-container-desk">

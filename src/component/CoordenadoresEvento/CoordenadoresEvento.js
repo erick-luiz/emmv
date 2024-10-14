@@ -11,7 +11,7 @@ import LongLine from '../Line/LongLine.js'
 const coordenadores = [
    {
       nome: 'Marcelo Vaz',
-      disciplina: 'Piano & Arranjo & Canto, Outros...',
+      descricao: 'Coordenação geral',
       foto: './images/professores/marcelo-vaz.png', // URL da imagem
       redes: {
         facebook: null,
@@ -22,7 +22,7 @@ const coordenadores = [
     },
     {
     nome: 'Rodrigo Terra',
-    descricao: 'Responsável pela organização geral do evento.',
+    descricao: 'Equipe técnica de áudio',
     foto: './images/professores/rodrigo-terra.jpg',
     redes: {
       facebook: 'https://pt-br.facebook.com/rodrigo.machado.5621',
@@ -33,57 +33,81 @@ const coordenadores = [
   },
   {
     nome: 'Fransisco Maciel',
-    descricao: 'Coordena as atividades culturais.',
+    descricao: 'Comissão de Infraestrutura',
     foto: './images/eventos/mentes-2024/fransisco-maciel.png',
     redes: {
-      facebook: '#',
-      instagram: '#',
-      twitter: '#',
-      linkedin: '#',
+      facebook: null,
+      instagram: null,
+      twitter: null,
+      linkedin: null,
     }
   },
  {
      nome: 'Lucas Cavalheiro',
-     descricao: 'Coordena as atividades culturais.',
+     descricao: 'Redes Sociais e Designer & Comissão Artística',
      foto: './images/eventos/mentes-2024/lucas-cavalheiro.png',
      redes: {
-       facebook: '#',
-       instagram: '#',
-       twitter: '#',
-       linkedin: '#',
+       facebook: null,
+       instagram: 'https://www.instagram.com/lucas.c.a.v.a/',
+       twitter: null,
+       linkedin: null,
      }
     },
-     {
-     nome: 'Alexandre Salum',
-     descricao: 'Coordena as atividades culturais.',
-     foto: './images/eventos/mentes-2024/alexandre-salum.png',
-     redes: {
-       facebook: '#',
-       instagram: '#',
-       twitter: '#',
-       linkedin: '#',
-     }
-    },{
+      {
+          nome: 'Benjamin Martins',
+          descricao: 'Comissão Artística',
+          foto: './images/eventos/mentes-2024/benjamin.jpg',
+          redes: {
+            facebook: null,
+            instagram: null,
+            twitter: null,
+            linkedin: null,
+          }
+         },{
            nome: 'Robson Velasquez',
-           descricao: 'Coordena as atividades culturais.',
+           descricao: 'Programação do evento',
            foto: './images/eventos/mentes-2024/robson-velasquez.png',
            redes: {
-             facebook: '#',
-             instagram: '#',
-             twitter: '#',
-             linkedin: '#',
+             facebook: null,
+             instagram: 'https://www.instagram.com/velasquesrobson/',
+             twitter: null,
+             linkedin: null,
            }
           },{
            nome: 'Erick Lopes (Kinho)',
-           descricao: 'Coordena a parte de Tecnologia',
-           foto: './images/eventos/mentes-2024/erick-lopes.png',
+           descricao: 'Mídias Digitais',
+           foto: './images/eventos/mentes-2024/erick-lopes.jpeg',
            redes: {
-             facebook: '#',
-             instagram: '#',
-             twitter: '#',
-             linkedin: '#',
+             facebook: null,
+             instagram: 'https://www.instagram.com/erick_kinho_sax/',
+             twitter: null,
+             linkedin: null,
+           }
+          },{
+           nome: 'Alyk Veleda',
+           descricao: 'Monitor',
+           foto: './images/eventos/mentes-2024/alyk.jpg',
+           redes: {
+             facebook: null,
+             instagram: 'https://www.instagram.com/veleda.alyk/',
+             twitter: null,
+             linkedin: null,
+           }
+          },{
+           nome: 'Dom Marquez',
+           descricao: 'Monitor',
+           foto: './images/eventos/mentes-2024/dom.jpg',
+           redes: {
+             facebook: null,
+             instagram: 'https://www.instagram.com/dommarqueznuri/',
+             twitter: null,
+             linkedin: null,
            }
           },
+
+
+
+
   // Adicione mais coordenadores conforme necessário
 ];
 
@@ -110,11 +134,20 @@ const CoordenadoresEvento = () => {
   return (
     <div className="coordenadores-container">
       <h1 className="titulo">
-        <span className="highlight">Coordenação</span> do Evento
+        Conheça nossa <span className="highlight">Comissão organizadora</span>
       </h1>
       <ShortLine />
       <p className="descricao">
-        Conheça os coordenadores que estão à frente deste grande evento.
+      <ul>
+        <li><b>Coordenação geral</b>: Marcelo Vaz</li>
+        <li><b>Programação do evento</b>: Robson Velasques</li>
+        <li><b>Redes Sociais e Designer</b>: Lucas Cavaleiro / Lucas Cunha</li>
+        <li><b>Mídias Digitais</b>: Érick Lopes (Kinho)</li>
+        <li><b>Comissão Artística</b>: Benjamin Martins, Lucas Cavaleiros</li>
+        <li><b>Comissão de Infraestrutura</b>: Francisco Maciel</li>
+        <li><b>Equipe técnica de áudio</b>: Rodrigo Terra</li>
+        <li><b>Monitores</b>: Alyk Veleda e Dom Marques</li>
+       </ul>
       </p>
       <LongLine />
 

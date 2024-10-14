@@ -1,5 +1,5 @@
 import React from 'react';
-import './Palestrantes.css';
+import './Apresentacoes.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importação dos estilos do carousel
 import Carousel from 'react-multi-carousel';
@@ -10,101 +10,47 @@ import LongLine from '../../Line/LongLine.js'
 
 const coordenadores = [
    {
-      nome: 'Marcelo Vaz',
+      nome: 'Gafieira do Mar & Kiai Grupo',
       disciplina: '',
-      foto: './images/eventos/mentes-2024/palestrantes/marcelo-vaz.jpeg', // URL da imagem
+      foto: './images/eventos/mentes-2024/palestrantes/show-gafieira-kiai.jpeg', // URL da imagem
       redes: {
         facebook: null,
-        instagram: 'https://www.instagram.com/marcelomusicprofile/',
+        instagram: 'https://www.instagram.com/gafieira_do_mar/',
+        instagram2: 'https://www.instagram.com/kiaigrupo/',
         twitter: null,
         linkedin: null,
       }
     },{
-        nome: 'Alexandre Salum',
+        nome: 'Marésom',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/alexandre-salum.jpeg', // URL da imagem
+        foto: './images/eventos/mentes-2024/palestrantes/show-maresom.jpeg', // URL da imagem
         redes: {
           facebook: null,
-          instagram: 'https://www.instagram.com/alexandre.salum/',
+          instagram: 'https://www.instagram.com/maresom.trio/',
           twitter: null,
           linkedin: null,
         }
       },{
-        nome: 'Joao Lovato',
+        nome: 'Tereza Countinho in Concert',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/joao-lovato.jpeg', // URL da imagem
+        foto: '/images/eventos/mentes-2024/palestrantes/show-tereza-coutinho.jpeg', // URL da imagem
         redes: {
           facebook: null,
-          instagram: 'https://www.instagram.com/lovato.joao/',
+          instagram: 'https://www.instagram.com/teresadiascoutinho/',
           twitter: null,
           linkedin: null,
         }
-      },{
-        nome: 'Karyne Coutinho',
-        disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/karyne-coutinho.jpeg', // URL da imagem
-        redes: {
-          facebook: null,
-          instagram: 'https://www.instagram.com/karyne_dias_coutinho/',
-          twitter: null,
-          linkedin: null,
-        }
-      },
-      {
-          nome: 'Luana Medina',
-          disciplina: '',
-          foto: './images/eventos/mentes-2024/palestrantes/luana-medina.jpeg', // URL da imagem
-          redes: {
-            facebook: null,
-            instagram: 'https://www.instagram.com/luanamedinas',
-            twitter: null,
-            linkedin: null,
-            youtube: 'https://www.youtube.com/@luanamedina8462'
-          }
-        },
-        {
-            nome: 'Michel Correa',
-            disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/michel-correa.jpeg', // URL da imagem
-            redes: {
-              facebook: null,
-              instagram: 'https://www.instagram.com/michelcorrea_/',
-              twitter: null,
-              linkedin: null,
-            }
-          },{
-            nome: 'Mostra Experiências',
-            disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/mostra-experiencias.jpeg', // URL da imagem
-            redes: {
-              facebook: null,
-              instagram: null,
-              twitter: null,
-              linkedin: null,
-            }
-          },{
-            nome: 'Rodrigo Terra',
-            disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/rodrigo-terra.jpeg', // URL da imagem
-            redes: {
-              facebook: null,
-              instagram: null,
-              twitter: null,
-              linkedin: null,
-            }
-          },
-
-  // Adicione mais coordenadores conforme necessário
+      }
 ];
 
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 2000 },
-      items: 4,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 2000, min: 768 },
-      items: 4,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 768, min: 464 },
@@ -116,15 +62,19 @@ const coordenadores = [
     },
   };
 
-const Palestrantes = () => {
+const Apresentacoes = () => {
   return (
     <div className="coordenadores-container">
       <h1 className="titulo">
-        <span className="highlight">Palestrantes e Participantes</span> do Evento
+        <span className="highlight">Apresentações Musicais</span> do Evento
       </h1>
       <ShortLine />
       <p className="descricao">
-        Conheça a turma de peso que fará parte desse evento lindo.
+        Todos os três dias do Evento Mentes Musicais 2024 serão encerrados com uma Apresentação músical.
+        Sendo o Dia 08 encerrado pelo grupo Marésom, o Dia 09 encerrado pela Tereza Coutinho com a apresentação
+        Tereza Coutinho in Concert, e para o último dia de evento teremos uma apresentão dos grupos Gafieira do Mar e
+        Kiai Grupo. A participação na apresentação será mediante a apresentação do ingresso de 30,00 R$ que pode ser adiquirido
+         na escola ou pelo Sympla.
       </p>
       <LongLine />
 
@@ -140,6 +90,7 @@ const Palestrantes = () => {
                         <div className="coordenador-redes">
                           {coordenador.redes.facebook && <a href={coordenador.redes.facebook} target="_blank"><FaFacebook /></a>}
                           {coordenador.redes.instagram && <a href={coordenador.redes.instagram} target="_blank"><FaInstagram /></a>}
+                          {coordenador.redes.instagram2 && <a href={coordenador.redes.instagram2} target="_blank"><FaInstagram /></a>}
                           {coordenador.redes.twitter && <a href={coordenador.redes.twitter} target="_blank"><FaTwitter /></a>}
                           {coordenador.redes.linkedin && <a href={coordenador.redes.linkedin} target="_blank"><FaLinkedin /></a>}
                           {coordenador.redes.youtube && <a href={coordenador.redes.youtube} target="_blank"><FaYoutube /></a>}
@@ -153,4 +104,4 @@ const Palestrantes = () => {
   );
 };
 
-export default Palestrantes;
+export default Apresentacoes;

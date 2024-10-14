@@ -6,7 +6,7 @@ const InnerNavbar = (props) => {
 
   return (
     <Navbar invisible={props.invisible}>
-        <SingleNavbarItem path="/" name="Inicio" />
+        <SingleNavbarItem path="/" name="Início" />
         <SingleNavbarItem path="/cursos" name="Cursos" />
         <SingleNavbarItem path="/equipe" name="Equipe" />
         <SingleNavbarItem path="/eventos" name="Eventos" />
