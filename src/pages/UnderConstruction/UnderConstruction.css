@@ -1,0 +1,21 @@
+/* UnderConstruction.css */
+.construction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.construction-container h1 {
+  font-size: 3rem;
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+.construction-container p {
+  font-size: 1.5rem;
+  color: #343a40;
+}

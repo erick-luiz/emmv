@@ -9,3 +9,9 @@
   border: 1px solid #00bfff;
   margin: 10px auto;
 }
+
+.short-line-gray {
+  width: 50%;
+  border: .8px solid #5959591c;
+  margin: 10px auto;
+}

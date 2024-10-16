@@ -11,6 +11,7 @@ import EventosCarousel from '../component/News/EventosCarousel.js';
 import PopupHome from '../component/Mentes2024/PopupHome/PopupHome.js';
 import NotificationPopup from '../component/NotificationPopup/NotificationPopup.js';
 import Page from './Page.js'
+import UnderConstruction from './UnderConstruction/UnderConstruction.js';
 
 
 const scrollToSection = (id) => {
@@ -29,7 +30,8 @@ function Home() {
 
   return <Page>
     <Slideshow />
-    <NavbarHome />
+    <UnderConstruction />
+    { /* <NavbarHome />
     <PopupHome />
     <section id="sobre-a-escola"><AboutSchool /></section>
     <section id="conheca-os-cursos"><CoursesCarousel /></section>
@@ -40,7 +42,7 @@ function Home() {
     <section id="localizacao">
         <h1>Localização</h1>
         <GoogleMap />
-    </section>
+    </section>*/ }
 
   </Page>;
 }

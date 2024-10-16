@@ -1,6 +1,7 @@
 import React from 'react';
 import './EquipeSection.css';
 import ShortLine from '../Line/ShortLine.js'
+import ShortLineGray from '../Line/ShortLineGray.js'
 import LongLine from '../Line/LongLine.js'
 import LerMais from '../LerMais/LerMais.js'
 
@@ -15,12 +16,19 @@ const Mentes2024Section = () => {
         O <span className="highlight">Mentes musicais</span> é um evento da Escola de Música Marcelo Vaz (<span className="highlight">EMMV</span>) que celebra a disseminação de saberes. O evento inclui apresentações musicais, oficinas, palestras, mesas redondas, mostras de experiências, minicursos e shows. A EMMV oferece um lugar propício para o estudo musical, criando um ambiente sonoro, artístico próprio para troca de experiências e aperfeiçoamento de saberes.
       </p>
 
-        <p className="descricao">Essa inscrição inclui a participação <span className="highlight">GRATUITA</span> nas palestras, rodas de conversa, oficinas,
+        <h3>Inscrição</h3>
+        <ShortLineGray />
+        <p className="descricao">A inscrição do evento inclui a participação <span className="highlight">GRATUITA</span> nas palestras, rodas de conversa, oficinas,
         mostra de experiências e pocket shows.</p>
+
+        <h3>Apresentações musicais</h3>
+        <ShortLineGray />
         <p className="descricao"> As apresentações musicais que ocorrerão às 21h no decorrer dos dias 8, 9 e 10,
         terão ingressos à venda via sympla e na <span className="highlight">EMMV</span>.</p>
-        <p className="descricao">Certificado de participação do <span className="highlight">1º Mentes Musicais</span> só mediante lista de presença no local do evento.</p>
 
+        <h3>Certificado</h3>
+        <ShortLineGray />
+        <p className="descricao"><span className="highlight">Certificado</span> de participação do <span className="highlight">1º Mentes Musicais</span> só mediante lista de presença no local do evento.</p>
       <LerMais>
       <p className="descricao">
       <b>Objetivos</b>: 1º Mentes Musicais tem como objetivo promover a cultura do estudo, o conhecimento e a disseminação de saberes, bem como incentivar o desenvolvimento da pesquisa, do ensino, da formação, cultura e da pedagogia musical.

@@ -9,10 +9,43 @@ import ShortLine from '../../Line/ShortLine.js'
 import LongLine from '../../Line/LongLine.js'
 
 const coordenadores = [
+    {
+      nome: 'Roda de Conversa',
+      disciplina: '',
+      foto: './images/eventos/mentes-2024/palestrantes/roda-de-conversa.png', // URL da imagem
+      redes: {
+        facebook: null,
+        instagram: 'https://www.instagram.com/marcelomusicprofile/',
+        twitter: null,
+        linkedin: null,
+      }
+    },
+    {
+      nome: 'Silvia Zanata',
+      disciplina: '',
+      foto: './images/eventos/mentes-2024/palestrantes/silvia-zanata.png', // URL da imagem
+      redes: {
+        facebook: null,
+        instagram: 'https://www.instagram.com/silvia.zanatta.coral/',
+        twitter: null,
+        linkedin: null,
+      }
+    },
+    {
+      nome: 'Lélia Diniz',
+      disciplina: '',
+      foto: './images/eventos/mentes-2024/palestrantes/lelia-diniz.png', // URL da imagem
+      redes: {
+        facebook: null,
+        instagram: null,
+        twitter: null,
+        linkedin: null,
+      }
+    },
    {
       nome: 'Marcelo Vaz',
       disciplina: '',
-      foto: './images/eventos/mentes-2024/palestrantes/marcelo-vaz.jpeg', // URL da imagem
+      foto: './images/eventos/mentes-2024/palestrantes/marcelo-vaz.png', // URL da imagem
       redes: {
         facebook: null,
         instagram: 'https://www.instagram.com/marcelomusicprofile/',
@@ -22,7 +55,7 @@ const coordenadores = [
     },{
         nome: 'Alexandre Salum',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/alexandre-salum.jpeg', // URL da imagem
+        foto: './images/eventos/mentes-2024/palestrantes/alexandre-salum.png', // URL da imagem
         redes: {
           facebook: null,
           instagram: 'https://www.instagram.com/alexandre.salum/',
@@ -32,7 +65,7 @@ const coordenadores = [
       },{
         nome: 'Joao Lovato',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/joao-lovato.jpeg', // URL da imagem
+        foto: './images/eventos/mentes-2024/palestrantes/joao-lovato.png', // URL da imagem
         redes: {
           facebook: null,
           instagram: 'https://www.instagram.com/lovato.joao/',
@@ -42,7 +75,7 @@ const coordenadores = [
       },{
         nome: 'Karyne Coutinho',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/karyne-coutinho.jpeg', // URL da imagem
+        foto: './images/eventos/mentes-2024/palestrantes/karyne-coutinho.png', // URL da imagem
         redes: {
           facebook: null,
           instagram: 'https://www.instagram.com/karyne_dias_coutinho/',
@@ -53,7 +86,7 @@ const coordenadores = [
       {
           nome: 'Luana Medina',
           disciplina: '',
-          foto: './images/eventos/mentes-2024/palestrantes/luana-medina.jpeg', // URL da imagem
+          foto: './images/eventos/mentes-2024/palestrantes/luana-medina.png', // URL da imagem
           redes: {
             facebook: null,
             instagram: 'https://www.instagram.com/luanamedinas',
@@ -65,7 +98,7 @@ const coordenadores = [
         {
             nome: 'Michel Correa',
             disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/michel-correa.jpeg', // URL da imagem
+            foto: './images/eventos/mentes-2024/palestrantes/michel-correa.png', // URL da imagem
             redes: {
               facebook: null,
               instagram: 'https://www.instagram.com/michelcorrea_/',
@@ -75,7 +108,7 @@ const coordenadores = [
           },{
             nome: 'Mostra Experiências',
             disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/mostra-experiencias.jpeg', // URL da imagem
+            foto: './images/eventos/mentes-2024/palestrantes/mostra-experiencias.png', // URL da imagem
             redes: {
               facebook: null,
               instagram: null,
@@ -85,15 +118,36 @@ const coordenadores = [
           },{
             nome: 'Rodrigo Terra',
             disciplina: '',
-            foto: './images/eventos/mentes-2024/palestrantes/rodrigo-terra.jpeg', // URL da imagem
+            foto: './images/eventos/mentes-2024/palestrantes/rodrigo-terra.png', // URL da imagem
             redes: {
               facebook: null,
-              instagram: null,
+              instagram: 'https://www.instagram.com/roodrigo_terra/',
               twitter: null,
               linkedin: null,
             }
           },
-
+    {
+        nome: 'Thiago Perdigão',
+        disciplina: '',
+        foto: './images/eventos/mentes-2024/palestrantes/thiago-perdigao.png', // URL da imagem
+        redes: {
+          facebook: null,
+          instagram: 'https://www.instagram.com/t.perdigao/',
+          twitter: null,
+          linkedin: null,
+        }
+    },
+    {
+        nome: 'Gustavo Silveira',
+        disciplina: '',
+        foto: './images/eventos/mentes-2024/palestrantes/gustavo-silveira.png', // URL da imagem
+        redes: {
+          facebook: null,
+          instagram: 'https://www.instagram.com/gustavo.o.silveira/',
+          twitter: null,
+          linkedin: null,
+        }
+    },
   // Adicione mais coordenadores conforme necessário
 ];
 

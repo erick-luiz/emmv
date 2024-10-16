@@ -15,14 +15,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/eventos" element={<News />} />
-        <Route path="/cursos/:courseId" element={<Course />} />
-        <Route path="/cursos" element={<Course />} />
-        <Route path="/equipe" element={<EquipePage />} />
         <Route path="/mentes-musicais-2024" element={<MentesMusicais2024 />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path='*' element={<Home />} />
       </Routes>
     </Router>
   );

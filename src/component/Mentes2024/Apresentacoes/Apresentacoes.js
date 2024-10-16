@@ -12,7 +12,7 @@ const coordenadores = [
    {
       nome: 'Gafieira do Mar & Kiai Grupo',
       disciplina: '',
-      foto: './images/eventos/mentes-2024/palestrantes/show-gafieira-kiai.jpeg', // URL da imagem
+      foto: './images/eventos/mentes-2024/palestrantes/show-gafieira-kiai.png', // URL da imagem
       redes: {
         facebook: null,
         instagram: 'https://www.instagram.com/gafieira_do_mar/',
@@ -23,7 +23,7 @@ const coordenadores = [
     },{
         nome: 'Marésom',
         disciplina: '',
-        foto: './images/eventos/mentes-2024/palestrantes/show-maresom.jpeg', // URL da imagem
+        foto: './images/eventos/mentes-2024/palestrantes/show-maresom.png', // URL da imagem
         redes: {
           facebook: null,
           instagram: 'https://www.instagram.com/maresom.trio/',
@@ -33,7 +33,7 @@ const coordenadores = [
       },{
         nome: 'Tereza Countinho in Concert',
         disciplina: '',
-        foto: '/images/eventos/mentes-2024/palestrantes/show-tereza-coutinho.jpeg', // URL da imagem
+        foto: '/images/eventos/mentes-2024/palestrantes/show-tereza-coutinho.png', // URL da imagem
         redes: {
           facebook: null,
           instagram: 'https://www.instagram.com/teresadiascoutinho/',
@@ -41,6 +41,7 @@ const coordenadores = [
           linkedin: null,
         }
       }
+
 ];
 
   const responsive = {
@@ -73,7 +74,7 @@ const Apresentacoes = () => {
         Todos os três dias do Evento Mentes Musicais 2024 serão encerrados com uma Apresentação músical.
         Sendo o Dia 08 encerrado pelo grupo Marésom, o Dia 09 encerrado pela Tereza Coutinho com a apresentação
         Tereza Coutinho in Concert, e para o último dia de evento teremos uma apresentão dos grupos Gafieira do Mar e
-        Kiai Grupo. A participação na apresentação será mediante a apresentação do ingresso de 30,00 R$ que pode ser adiquirido
+        Kiai Grupo. A participação na apresentação será mediante a apresentação do ingresso de R$ 30,00  que pode ser adquirido
          na escola ou pelo Sympla.
       </p>
       <LongLine />

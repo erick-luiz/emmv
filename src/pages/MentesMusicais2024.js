@@ -16,7 +16,7 @@ import GoogleMap from '../component/GoogleMap/GoogleMap.js';
 function MentesMusicais2024() {
   return  <Page>
         <Banner backgroundImage="./images/eventos/mentes-2024/banner-7.png" text="" />
-        <InnerNavbar invisible={true}/>
+        {/*<InnerNavbar invisible={true}/> */}
         <NavegacaoCircular />
         <session id="detalhes">
         <Mentes2024Section />

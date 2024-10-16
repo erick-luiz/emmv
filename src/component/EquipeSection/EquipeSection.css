@@ -29,3 +29,9 @@
       margin-bottom: 20px;
 }
 
+.equipe-container h2 {
+text-align: left !important;
+color: #00bfff;
+white-space: normal
+}
+
