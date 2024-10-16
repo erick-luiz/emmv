@@ -56,7 +56,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Marésom</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom</td>
             </tr>
           </>
         );
@@ -107,7 +107,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
             </tr>
           </>
         );
@@ -153,7 +153,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
             </tr>
           </>
         );
@@ -238,11 +238,11 @@ const ProgramacaoEvento = () => {
                   </tr>
                   <tr>
                     <td>21h</td>
-                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Marésom</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom</td>
                     <td>21h</td>
-                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
                     <td>21h</td>
-                    <td>** (30,00 R$) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo ()</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo ()</td>
                   </tr>
                 </>
               );
@@ -309,7 +309,7 @@ const ProgramacaoEvento = () => {
           {getMobileTable('domingo')}
         </TabPanel>
       </Tabs>
-      <Alerta texto="** As Apresentações músicais tem o valor de 30,00 R$. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
+      <Alerta texto="** As Apresentações músicais tem o valor de R$ 30,00. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
 
       </div>
     {/* DESKTOP... */}
@@ -337,7 +337,7 @@ const ProgramacaoEvento = () => {
           {renderTableContent('all')}
         </tbody>
       </table>
-    <Alerta texto="** As Apresentações músicais tem o valor de 30,00 R$. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
+    <Alerta texto="** As Apresentações músicais tem o valor de R$ 30,00. O Ingresso pode ser adquirido na Escola ou pelo Sympla" />
     </div>
     </div>
   );
