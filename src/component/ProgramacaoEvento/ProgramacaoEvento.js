@@ -153,7 +153,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio</td>
             </tr>
           </>
         );
@@ -242,7 +242,7 @@ const ProgramacaoEvento = () => {
                     <td>21h</td>
                     <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
                     <td>21h</td>
-                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo ()</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio</td>
                   </tr>
                 </>
               );

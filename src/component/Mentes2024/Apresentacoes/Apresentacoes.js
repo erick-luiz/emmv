@@ -10,13 +10,12 @@ import LongLine from '../../Line/LongLine.js'
 
 const coordenadores = [
    {
-      nome: 'Gafieira do Mar & Kiai Grupo',
+      nome: 'Gafieira do Mar & Dougtrio',
       disciplina: '',
-      foto: './images/eventos/mentes-2024/palestrantes/show-gafieira-kiai.png', // URL da imagem
+      foto: './images/eventos/mentes-2024/palestrantes/show-gafieira-dougtrio.png', // URL da imagem
       redes: {
         facebook: null,
         instagram: 'https://www.instagram.com/gafieira_do_mar/',
-        instagram2: 'https://www.instagram.com/kiaigrupo/',
         twitter: null,
         linkedin: null,
       }
