@@ -95,7 +95,7 @@ const programacao = [
           turno: 'Noite',
           horarios: [
                         { hora: '18:30h - 20h', evento: 'Palestra ', apresentador: 'Silvia Zanatta' },
-                        { hora: '21h', evento: 'Apresentação Musical', apresentador: 'Gafieira do Mar e Kiai Grupo' },
+                        { hora: '21h', evento: 'Apresentação Musical', apresentador: 'Gafieira do Mar e DougTrio' },
                     ],
         },
         ],

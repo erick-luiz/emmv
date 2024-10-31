@@ -1,0 +1,26 @@
+.sympla-btn {
+  display: inline-block;
+  background-color: #00aaff; /* Azul claro */
+  color: white;
+  text-align: center;
+  padding: 2px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none; /* Remove o sublinhado do link */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: Arial, sans-serif;
+  width: 90%;
+  heigth: 15px;
+}
+
+.sympla-btn:hover {
+  background-color: #0088cc; /* Muda o tom de azul no hover */
+  transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.7); /* Efeito de brilho */
+}
+
+.sympla-btn:active {
+  transform: scale(0.98); /* Diminui levemente ao clicar */
+}

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './ProgramacaoEvento.css';
+import SymplaBtn from '../component/Btn/SymplaBtn.js';
 
 const ProgramacaoEvento = () => {
   const [selectedDay, setSelectedDay] = useState('sexta');
@@ -54,7 +55,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Marésom</td>
+              <td>APRESENTAÇÃO MUSICAL - Marésom <SymplaBtn link="" /></td>
             </tr>
           </>
         );
@@ -102,7 +103,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+              <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert <SymplaBtn link="" /></td>
             </tr>
           </>
         );
@@ -148,7 +149,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+              <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e DougTrio <SymplaBtn link="" /></td>
             </tr>
           </>
         );
@@ -233,11 +234,11 @@ const ProgramacaoEvento = () => {
                   </tr>
                   <tr>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Marésom</td>
+                    <td>APRESENTAÇÃO MUSICAL - Marésom <SymplaBtn link="" /></td>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+                    <td>APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert <SymplaBtn link="" /></td>
                     <td>21h</td>
-                    <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e Kiai Grupo</td>
+                    <td>APRESENTAÇÃO MUSICAL - Gafieira do Mar e DougTrio <SymplaBtn link="" /></td>
                   </tr>
                 </>
               );

@@ -5,9 +5,14 @@ import './ProgramacaoEvento.css';
 import ShortLine from '../Line/ShortLine.js'
 import Alerta from '../Alerta/Alerta.js'
 import Preco from '../Preco/Preco.js'
+import SymplaBtn from '../Btn/SymplaBtn.js'
 
 const ProgramacaoEvento = () => {
   const [selectedDay, setSelectedDay] = useState('sexta');
+
+  const dougtriolink = "https://www.sympla.com.br/1-mentes-musicais-apresentacao-musical-gafieira-do-mar-e-dougtrio__2707341"
+  const teresalink = "https://www.sympla.com.br/evento/teresa-coutinho-in-concert/2713998?_gl=1*nh416q*_gcl_au*MTYwNzUxMTk4Ny4xNzI4OTU5NTE2*_ga*MzYxMDQwMzIuMTcyODk1OTUxNg..*_ga_KXH10SQTZF*MTczMDMwNjU2Ny4xMi4xLjE3MzAzMDY5NzMuMjYuMC4xOTI0NjUxNjE3&share_id=copiarlink"
+  const maresomlink = "https://www.sympla.com.br/evento/maresom/2690562?_gl=1*zvixa3*_gcl_au*MTYwNzUxMTk4Ny4xNzI4OTU5NTE2*_ga*MzYxMDQwMzIuMTcyODk1OTUxNg..*_ga_KXH10SQTZF*MTcyOTc5OTk4NC45LjEuMTcyOTgwMzY1NS44LjAuNDQ0MjM5ODg1&share_id=copiarlink"
 
   const renderTableContent = (day) => {
     switch (day) {
@@ -56,7 +61,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom <SymplaBtn link={maresomlink} /></td>
             </tr>
           </>
         );
@@ -107,7 +112,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert <SymplaBtn link={teresalink} /></td>
             </tr>
           </>
         );
@@ -153,7 +158,7 @@ const ProgramacaoEvento = () => {
             </tr>
             <tr>
               <td>21h</td>
-              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio</td>
+              <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio <SymplaBtn link={dougtriolink} /></td>
             </tr>
           </>
         );
@@ -238,11 +243,11 @@ const ProgramacaoEvento = () => {
                   </tr>
                   <tr>
                     <td>21h</td>
-                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Marésom <SymplaBtn link={maresomlink} /></td>
                     <td>21h</td>
-                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Teresa Coutinho in Concert <SymplaBtn link={teresalink} /></td>
                     <td>21h</td>
-                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio</td>
+                    <td>** (R$ 30,00) APRESENTAÇÃO MUSICAL - Gafieira do Mar e Dougtrio <SymplaBtn link={dougtriolink} /></td>
                   </tr>
                 </>
               );

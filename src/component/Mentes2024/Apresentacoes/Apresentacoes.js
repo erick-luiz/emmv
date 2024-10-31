@@ -73,7 +73,7 @@ const Apresentacoes = () => {
         Todos os três dias do Evento Mentes Musicais 2024 serão encerrados com uma Apresentação músical.
         Sendo o Dia 08 encerrado pelo grupo Marésom, o Dia 09 encerrado pela Tereza Coutinho com a apresentação
         Tereza Coutinho in Concert, e para o último dia de evento teremos uma apresentão dos grupos Gafieira do Mar e
-        Kiai Grupo. A participação na apresentação será mediante a apresentação do ingresso de R$ 30,00  que pode ser adquirido
+        DougTrio. A participação na apresentação será mediante a apresentação do ingresso de R$ 30,00  que pode ser adquirido
          na escola ou pelo Sympla.
       </p>
       <LongLine />

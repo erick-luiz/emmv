@@ -39,7 +39,7 @@ const programacao = {
     { horario: '17h – 18h', atividade: 'Roda de conversa Bruno Soares' },
     { horario: '18h30 – 20h', atividade: 'Palestra Silvia Zanatta' },
     { horario: '20h', atividade: 'Encerramento' },
-    { horario: '21h', atividade: 'Apresentação Musical – Gafieira do Mar e Kiai Grupo' },
+    { horario: '21h', atividade: 'Apresentação Musical – Gafieira do Mar e DougTrio' },
   ],
 };
 
